@@ -13,6 +13,7 @@
   <router-link class='algebra_links' to='/Algebra_Topics/Logarithms'>Logarithms</router-link><br>
   <router-link class='algebra_links' to='/Algebra_Topics/Function_Transformations'>Function Transformations</router-link><br>
   <router-link class='algebra_links' to='/Algebra_Topics/Pythagorean_Theorem'>Pythagorean Theorem</router-link><br></h2>
+  <br><br><router-link class='stats_topics' to='../'>Back to Homepage</router-link>
 </template>
 
 
