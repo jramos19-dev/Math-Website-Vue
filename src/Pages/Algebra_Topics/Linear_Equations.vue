@@ -45,7 +45,6 @@
 </template>
 <script>
 import { ref } from '@vue/reactivity'
-import algebra from 'algebra.js'
 export default {
 components:  {},
 setup(){
