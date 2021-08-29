@@ -24,7 +24,7 @@
         </p>
       <h2>Slope Intercept Form </h2>
        <p>
-         Another one of the forms used in Algebra is the point slope form.<br> 
+         Another one of the forms used to describe a line is the <b>point slope </b>form.<br> 
          This form gives us 2 important bits of information. First of all it gives us the value of the slope,
          and secondly it gives us the value of the Y intercept. <br>
        </p>
@@ -68,7 +68,7 @@ setup(){
 }
 .container {
   background-color: rgb(219, 211, 211);
-  max-width:  680px;
+  max-width:  840px;
   margin: 0 auto;
 }
 
