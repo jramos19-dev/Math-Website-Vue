@@ -18,9 +18,9 @@
         </h2>
         <p>
           An equation can be written in different ways called forms,so there could be different equations that represent the same line. <br>
-          The standard form for linear equations of 1 variable are in the form <span>ax+b=0</span> <br>
+          The standard form for linear equations of 1 variable are in the form <vue-mathjax formula="$$ax+b=0$$"/><br>
 
-          A linear equation with 2 variables has a standard form of <span>ax+by+c=0</span>
+          A linear equation with 2 variables has a standard form of <vue-mathjax formula="$$ax+by+c=0$$"/>
         </p>
       <h2>Slope Intercept Form </h2>
        <p>
@@ -32,11 +32,13 @@
        <p>The best way to define the slope is to think about it as the ratio <b>rise</b>/<b>run</b></p>
        <p>The slope is the type of slant that the line has , we can calculate the value by taking a 2 points in the graph of the line and </p>
         <p>comparing the y value of each point and the x value of each point.  </p>
-
+      
+            <vue-mathjax formula="$$m= {y_2-y_1\over x_2-x_1} $$"/>
 
       </div>
     </div>
-      
+    
+    
      
 
 
@@ -49,7 +51,9 @@ export default {
 components:  {},
 setup(){
 
+  const formula = ref('$$x^2+y^2+=r^2$$')
 
+  return {formula}
 
 }
  
@@ -87,4 +91,12 @@ input{
   height: 30px;
   align-items: center;
   }
+.formula{
+  background-color: aquamarine;
+  max-width: 680px;
+  margin: 0 auto;
+  height: 50px;
+  padding: 0;
+}
+
 </style>
